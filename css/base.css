@@ -1,0 +1,21 @@
+/*
+* @Author: 王金龙
+* @Date:   2017-10-10 10:18:09
+* @Last Modified by:   王金龙
+* @Last Modified time: 2017-10-10 10:44:11
+*/
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:"微软雅黑","宋体",dans-serif;
+}
+a{
+	text-decoration:none;
+}
+border{
+	background:#fff;
+}
+img{
+	border:0;
+}

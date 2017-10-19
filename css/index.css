@@ -1,0 +1,387 @@
+/*
+* @Author: 王金龙
+* @Date:   2017-10-10 10:19:15
+* @Last Modified by:   王金龙
+* @Last Modified time: 2017-10-17 23:13:57
+*/
+@import url('base.css');
+.navlist{
+	width: 100%;
+	height: 2.7rem;                                                                                                                                                                                                                                                                                                               
+	/* background: red; */
+/* 	margin-top: 0.88rem; */
+}
+.list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	/* background: pink; */
+}
+.list li{
+	width: 20%;
+	height: auto;
+	/* background: yellow; */          
+	float: left;
+}
+.navimg{
+	display: block;
+	width: 0.72rem;
+	height: 0.72rem;
+	/* background: gold; */
+	margin: 0 auto;
+	margin-top: 0.15rem;
+	margin-bottom: 0.15rem;
+}
+.navimg img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.navtext{
+	display: block;
+	font-size: 0.22rem;
+	color: black;
+	text-align: center;
+}
+.chaoliu{
+	width: 100%;
+	height: 0.62rem;
+	background:#f0f0f0;
+	
+}
+.ab{
+   width: 50%;
+   height: 0.62rem;
+   /* background: red; */
+   overflow: hidden; 
+   margin: 0 auto;
+}
+.zuoxian{
+	width: 0.5rem;
+	height: 0.02rem;
+	background: #becfec;
+	float: left;
+	margin-top: 0.28rem;
+}
+.youxian{
+	width: 0.5rem;
+	height: 0.02rem;
+	background: #becfec;
+	float: right;
+	margin-top: 0.28rem;
+}
+.shouji{
+	width: 0.33rem;
+	height: 0.31rem;
+	/* background: blue; */
+	margin-left: 0.28rem;
+	float: left;
+	margin-top: 0.17rem;
+}
+.shouji i{
+	line-height: 0.31rem;
+	text-align: center;
+	color: red;
+	float: left;
+}
+.zi{
+	width: 1.21rem;
+	height: 0.3rem;
+	/* background: blue; */
+	float: left;
+	margin-left: 0.1rem;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.3rem;
+	margin-top: 0.16rem;
+}
+.zia{
+	width: 1.21rem;
+	height: 0.3rem;
+	/* background: blue; */
+	float: left;
+	margin-left: 0.5rem;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.3rem;
+	margin-top: 0.16rem;
+}
+.tou{
+	width: 100%;
+	height: 0.88rem;
+	background: #f32d2d;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 999;
+}
+.hangbao{
+	width: 0.52rem;
+	height: 0.66rem;
+/* 	background: yellow; */
+	margin-top: 0.1rem;
+	margin-left: 0.35rem;
+	float: left;
+}
+.hangbao i{
+	font-size: 0.35rem;
+	line-height: 0.66rem;
+	float: left;
+	margin-left: 0.05rem;
+	color: white;
+}
+.shousuohe{
+	width: 3.98rem;
+	height: 0.66rem;
+	background:#fee9e9;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.35rem;
+} 
+.denglu{
+   width: 0.5rem;
+   height: 0.66rem;
+  /*  background: yellow; */
+   float: left;
+   margin-top: 0.1rem;
+   margin-left: 0.4rem;
+   font-size: 0.21rem;
+   text-align: center;
+   line-height: 0.66rem;
+   color: white;
+}
+.zuoshousuo{
+	width: 3.2rem;
+	height: 0.66rem;
+	
+	float: left;
+	
+} 
+input{
+	float: left;
+	width: 3.2rem;
+	height: 0.66rem;
+	border: none;
+    background: #fee9e9;
+}
+.sousuo{
+	width: 0.54rem;
+	height: 0.66rem;
+	/* background: #fee9e9; */
+	float: left;
+	margin-left: 0.1rem;
+}
+.sousuo img{
+	width: 100%;
+	height: 100%;
+	display: block;
+} 
+.bazhang{
+	width: 100%;
+	height: 2.22rem;
+	background: blue;
+	margin-top: 0.88rem;
+}
+.bazhang img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.sanchaoliu{
+	width: 100%;
+	height: 3rem;
+	background: pink;
+}
+.yichouliu li{
+	height: 3rem;
+	width:calc(100% / 3);
+	background: red;
+	float: left;
+}
+.yichouliu li img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.temaihe{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.jnby{
+	width: 3.22rem;
+	height: 1.88rem;
+	/* background: blue; */
+	float: left;
+	border-right: 0.02rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+.ikc{
+	width: 3.18rem;
+	height: 1.88rem;
+	/* background: blue; */
+	float: left;
+}
+.jnby img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.ikc img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.biqian{
+	width: 100%;
+	height: 0.6rem;
+	background: #f0f0f0;
+
+}
+.jinribiq{
+	width:100%;
+	height: 5.1rem;
+	/* background: black; */
+}
+.jinribiq li{
+	width: calc(100% / 4);
+	height: 2.55rem;
+	/* background: red; */
+	float: left;
+	box-sizing: border-box;
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.jinribiq li:nth-child(4){
+    border-bottom: 0.02rem solid #f0f0f0;
+    border-left: 0.01rem solid #f0f0f0;
+}
+.jinribiq li:last-child{
+	border-left: 0.01rem solid #f0f0f0;
+    border-bottom: none;
+}
+.jinribiq a img{
+      width: 100%;
+      height: 2.53rem;
+      display: block;
+}
+/* 猜你喜欢开始 */
+.caini{
+	width: 100%;
+	/* height: 0.88rem; */
+	background: #f0f0f0;
+	float: left;
+}
+.hla{
+	width: 3.24rem;
+	height: 4.54rem;
+	/* background:yellow; */
+	float: left;
+	border-right: 0.06rem solid  #f0f0f0;
+	box-sizing: border-box;
+}
+.mew{
+	width: 3.16rem;
+	height: 4.54rem;
+	/* background: yellow; */
+	float: right;
+}
+.xhla{
+	width: 3.17rem;
+	height: 3.17rem;
+	/* background: green; */
+}
+.rexiao{
+	width: 3.17rem;
+	height: 0.89rem;
+	/* background:red; */
+	font-size: 0.26rem;
+	line-height: 0.4rem; 
+
+
+}
+.xiezi{
+	width: 3.17rem;
+	height: 3.17rem;
+	/* background: green; */
+}
+.xhla img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.xiezi img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.qian{
+	width: 1rem;
+	height: 0.3rem;
+	/* background: blue; */
+}
+.qian img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.end{
+	width: 100%;
+	height: 0.86rem;
+	background: #eeeeee;
+	float: left;
+	border-bottom: 0.04rem solid  black;
+}
+.aend{
+	width: 1rem;
+	height: 0.84rem;
+	/* background: blue; */
+	margin: 0 auto;
+}
+.aend img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.kehuduan{
+	width: 100%;
+	height: 2.02rem;
+	/* background: red; */
+	float: left;
+	overflow: hidden;
+}
+.zhuce{
+	width: 5.8rem;
+	height: 0.25rem;
+	/* background: yellow; */
+	float: right;
+	margin-top:0.43rem; 
+}
+.zhuce li{
+	font-size: 0.25rem;
+	padding-left: 0.34rem;
+	padding-right: 0.34rem;
+	border-right: 0.02rem solid #b29999;
+	float: left;
+	line-height: 0.25rem;
+}
+.zhuce li a{
+	color:#b29999;
+}
+.zhuce li:last-child{
+	border-right: 0;
+	padding-right: 0;
+}
+.zhuce li:first-child{
+	padding-left: 0;
+}
+.banquan{
+	width: 3.45rem;
+	height: 0.23rem;
+	/* background: yellow; */
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 1.33rem;
+	font-size: 0.23rem;
+	line-height: 0.23rem;
+}
+
